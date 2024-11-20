@@ -49,11 +49,12 @@ nav {
     align-items: center;
     position: relative;
     z-index: 100;
-    justify-content: space-between;
+    justify-content: flex-end; 
 }
 
 #nav-part2 {
     display: flex;
+    
     align-items: center;
     gap: 1vw;
 }
@@ -141,7 +142,7 @@ nav h3 {
 }
 
 #hero-1 {
-    background-color: #FE320A;
+    background-color: #acd659;
     height: 100%;
     width: 100%;
     border-top-left-radius: 50%;
@@ -151,7 +152,7 @@ nav h3 {
 }
 
 #hero-2 {
-    background: linear-gradient(#FE320A, #fe3f0a);
+    background: linear-gradient(#8ACE00, #8ACE00);
 
     height: 30vw;
     width: 30vw;
@@ -166,7 +167,7 @@ nav h3 {
 }
 
 #hero-3 {
-    background: linear-gradient(#FE320A, #fe3f0a);
+    background: linear-gradient(#8ACE00, #8ACE00);
     height: 30vw;
     position: absolute;
     width: 30vw;
@@ -236,7 +237,7 @@ nav h3 {
     width: 70px;
     border-radius: 50%;
     display: inline-block;
-    background-color: #FE320A;
+    background-color: #8ACE00;
     margin: 1vw 2vw;
 }
 
@@ -289,7 +290,7 @@ nav h3 {
     width: 32vw;
     position: absolute;
     border-radius: 50%;
-    background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+    background: linear-gradient(to top right, #8ACE00, #8ACE00);
     /* background: linear-gradient(to top right,red,blue); */
 
 
@@ -347,7 +348,7 @@ nav h3 {
 .elem .overlay {
     height: 100%;
     width: 100%;
-    background-color: orange;
+    background-color: #8ACE00;
     position: absolute;
     left: 0;
     top: -100%;
@@ -418,9 +419,10 @@ nav h3 {
 }
 
 #footer-div {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
-    background-color: red;
+    background-color: #8ACE00;
+    /* animation: bleed 4s infinite alternate; */
 }
 
 #footer-bottom {
@@ -556,7 +558,7 @@ nav h3 {
         width: 25px;
         border-radius: 50%;
         display: inline-block;
-        background-color: #FE320A;
+        background-color: #88c70b;
         margin: 2vw 2vw;
     }
 
@@ -600,7 +602,7 @@ nav h3 {
         width: 62vw;
         position: absolute;
         border-radius: 50%;
-        background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+        background: linear-gradient(to top right, #8ACE00, #8ACE00);
         /* background: linear-gradient(to top right,red,blue); */
 
 
@@ -634,7 +636,7 @@ nav h3 {
 #loader h1{
     font-size: 4vw;
     color: transparent;
-    background: linear-gradient(to right,orange,orangered);
+    background: linear-gradient(to right,#8ACE00,#8ACE00);
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
